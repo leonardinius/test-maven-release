@@ -39,6 +39,11 @@
             <name>site-name</name>
             <url>file://tmp/</url>
         </site>
+        <repository>
+            <id>repo-main</id>
+            <name>Repository Name</name>
+            <url>file://tmp/</url>
+        </repository>
         <!-- use the following if you ARE using a snapshot version. -->
         <snapshotRepository>
             <id>repo-snapshot</id>
