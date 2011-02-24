@@ -38,13 +38,13 @@
         <repository>
             <id>repo</id>
             <name>Repository Name</name>
-            <url>file://tmp</url>
+            <url>scp://localhost/tmp/</url>
         </repository>
         <!-- use the following if you ARE using a snapshot version. -->
         <snapshotRepository>
             <id>repo</id>
             <name>Repository Name</name>
-            <url>file://tmp</url>
+            <url>scp://localhost/tmp/</url>
         </snapshotRepository>
     </distributionManagement>
 
