@@ -34,6 +34,11 @@
     </scm>
 
     <distributionManagement>
+        <site>
+            <id>site-id</id>
+            <name>site-name</name>
+            <url>file://tmp/</url>
+        </site>
         <!-- use the following if you ARE using a snapshot version. -->
         <snapshotRepository>
             <id>repo-snapshot</id>
