@@ -24,7 +24,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/leonardinius/test-maven-release.git</connection>
-        <developerConnection>scm:git:ssh://github.com/leonardinius/test-maven-release.git</developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com:leonardinius/test-maven-release.git</developerConnection>
         <url>https://github.com/leonardinius/test-maven-release</url>
     </scm>
 
