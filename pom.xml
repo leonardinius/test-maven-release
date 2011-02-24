@@ -38,7 +38,7 @@
         <snapshotRepository>
             <id>repo-snapshot</id>
             <name>Repository Name</name>
-            <url>scp://localhost/tmp/</url>
+            <url>file://tmp/</url>
         </snapshotRepository>
     </distributionManagement>
 
