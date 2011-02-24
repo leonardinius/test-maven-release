@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>leonardinius-test</groupId>
@@ -12,6 +13,10 @@
         <name>DoAutomate.me</name>
         <url>http://leonardinius.blogspot.com/</url>
     </organization>
+
+
+    <name>test-maven-release</name>
+    <description>This is the leonardinius-test:test-maven-release maven release plugin GitHub test.</description>
 
     <developers>
         <developer>
@@ -28,8 +33,20 @@
         <url>https://github.com/leonardinius/test-maven-release</url>
     </scm>
 
-    <name>test-maven-release</name>
-    <description>This is the leonardinius-test:test-maven-release maven release plugin GitHub test.</description>
+    <distributionManagement>
+        <!-- use the following if you're not using a snapshot version. -->
+        <repository>
+            <id>repo</id>
+            <name>Repository Name</name>
+            <url>file://tmp</url>
+        </repository>
+        <!-- use the following if you ARE using a snapshot version. -->
+        <snapshotRepository>
+            <id>repo</id>
+            <name>Repository Name</name>
+            <url>file://tmp</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
