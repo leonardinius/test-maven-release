@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>leonardinius-test</groupId>
   <artifactId>test-maven-release</artifactId>
-  <version>1.4</version>
+  <version>1.5</version>
   <name>test-maven-release</name>
   <description>This is the leonardinius-test:test-maven-release maven release plugin GitHub test.</description>
   <organization>
