@@ -17,9 +17,6 @@
     <name>test-maven-release</name>
     <description>This is the leonardinius-test:test-maven-release maven release plugin GitHub test.</description>
 
-    <inceptionYear>2011</inceptionYear>
-    <url>http://code.google.com/p/javascript-plugin-for-sonar</url>
-
     <licenses>
         <license>
             <name>Apache 2</name>
@@ -102,7 +99,6 @@
                     <useDefaultExcludes>true</useDefaultExcludes>
                     <useDefaultMapping>true</useDefaultMapping>
                     <properties>
-                        <year>${project.inceptionYear}</year>
                         <productName>${project.name}</productName>
                         <productDescription>${project.name}</productDescription>
                         <email>leonidms@gmail.com</email>
